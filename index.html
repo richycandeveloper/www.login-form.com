@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In & Sign Up Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="signin">
+        <img src="Images/sign in img.png" alt="">
+      <h2>Sign In</h2>
+      <form action="#">
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+       <a  href="#">Forget Password</a>
+        <button type="submit">Sign In</button>
+      </form>
+      <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
+    <div class="signup">
+       <img src="Images/sign up img 2 .png">
+      <h1>Sign Up</h1>
+      <form action="#">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <div class="checkbox-container">
+            <input type="checkbox" id="agree" required>
+            <label for="agree">I agree with all terms and conditions</label>
+        </div>
+        <button type="submit">Sign Up</button>
+      </form>
+      <p>Have an account? <a href="signin.html">Sign In</a></p>
+    </div>
+  </div>
+</body>
+</html>
